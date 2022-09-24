@@ -1,0 +1,54 @@
+
+header{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 12px;
+    width: 50%;
+  
+}
+.banner {
+
+    
+    object-fit: cover; 
+    object-position: bottom;
+}
+.promocao,.products {
+    display: inline-block;
+}
+.promocao {
+    text-align: left;
+    width: 50%;
+}  
+.products {
+    text-align: right;
+    width: 50%;
+}
+.primeiro-produto {
+    margin: 0 auto;
+}
+.img1{
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    
+    border: 10px ;
+    border-radius: 10px;   
+}
+.img2 {
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    box-align: center;
+    border: 10px ;
+    border-radius: 10px; 
+}
+.img3 {
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    
+    border: 10px ;
+    border-radius: 10px; 
+}
+footer {
+    background-color: #F9F9F9;
+}
