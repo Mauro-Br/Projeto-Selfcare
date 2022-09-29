@@ -1,17 +1,14 @@
-
 header{
     font-family: Impact, Charcoal, sans-serif;
     font-size: 12px;
-    object-fit: cover; 
+    width: 50%;
   
 }
 .banner {
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-   padding-left: 2px;
-   padding-right: 2px;
+
+    
     object-fit: cover; 
+    object-position: bottom;
 }
 .promocao,.products {
     display: inline-block;
@@ -20,7 +17,7 @@ header{
     text-align: left;
     width: 50%;
 }  
-.products {
+.produtos {
     text-align: right;
     width: 50%;
 }
@@ -28,24 +25,24 @@ header{
     margin: 0 auto;
 }
 .img1{
-    width: 200px; /* width of container */
-    height: 200px; /* height of container */
+    width: 250px; /* width of container */
+    height: 250px; /* height of container */
     object-fit: cover;
     
     border: 10px ;
     border-radius: 10px;   
 }
 .img2 {
-    width: 200px; /* width of container */
-    height: 200px; /* height of container */
+    width: 250px; /* width of container */
+    height: 250px; /* height of container */
     object-fit: cover;
-    
+    box-align: center;
     border: 10px ;
     border-radius: 10px; 
 }
 .img3 {
-    width: 200px; /* width of container */
-    height: 200px; /* height of container */
+    width: 250px; /* width of container */
+    height: 250px; /* height of container */
     object-fit: cover;
     
     border: 10px ;
