@@ -1,28 +1,32 @@
-header{
+.fa, #selfcare{
     font-family: Impact, Charcoal, sans-serif;
     font-size: 12px;
+    display: inline-block;
+}
+#selfcare {
+    text-align: left;
     width: 50%;
-  
+    font-size: 12px;
+}
+.fa {
+    padding: 15px;
+    width: 50%;
+    float: left;
 }
 .banner {
-
-    
     object-fit: cover; 
     object-position: bottom;
 }
-.promocao,.products {
+.promocao, .quantidade{
     display: inline-block;
 }
 .promocao {
     text-align: left;
     width: 50%;
 }  
-.produtos {
+.quantidade {
     text-align: right;
     width: 50%;
-}
-.primeiro-produto {
-    margin: 0 auto;
 }
 .img{
     width: 250px; /* width of container */
@@ -31,11 +35,36 @@ header{
     border: 10px ;
     border-radius: 10px;   
 }
-.container{
+
+.container {
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
+    border: #5CA720;
+    margin: 25px;
+}
+.container p{
+/* Lorem ipsum dolor sit */
+position: relative;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+color: #161616;
+}
+
+.container h3 {
+    /* R$ 50,00 */
+    position: relative;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+    color: #5CA720;
 }
 footer {
     background-color: #F9F9F9;
     
 }
+
+
